@@ -20,5 +20,5 @@ on:
         - run: npm install
         - run: npm run lint
         - run: npm test
-        - run: npm build
+        - run: npm run build
         
