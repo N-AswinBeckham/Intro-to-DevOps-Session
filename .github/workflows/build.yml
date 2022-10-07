@@ -14,7 +14,7 @@ on:
         - name: checkout
           uses: actions/checkout@v2
         - name: set up nodejs
-          uses: actions/setup-nodejs@v1
+          uses: actions/setup-node@v1
           with:
             node-version: 16
         - run: npm install
